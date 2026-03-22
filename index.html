@@ -129,7 +129,7 @@
       color: var(--lightgrey);
       margin-bottom: 1rem;
     }
-    .profit-note, .y-note, .b-note, .p-note, .g-note {
+    .profit-note {
       background: rgba(245,196,0,0.12);
       border-left: 5px solid var(--yellow);
       padding: 0.8rem 1rem;
@@ -137,11 +137,38 @@
       font-style: italic;
       color: #ffdd88;
     }
-    .y-note { background: rgba(245,196,0,0.10); border-left-color: #f5c400; color: #ffdd88; }
-    .b-note { background: rgba(68,136,255,0.09); border-left-color: #4488ff; color: #aaccff; }
-    .p-note { background: rgba(136,68,204,0.09); border-left-color: #8844cc; color: #d0b0ff; }
-    .g-note { background: rgba(68,204,136,0.09); border-left-color: #44cc88; color: #b0ffcc; }
-
+    .y-note {
+      background: rgba(245, 196, 0, 0.10);
+      border-left: 5px solid #f5c400;
+      padding: 0.8rem 1rem;
+      margin: 1.2rem 0;
+      font-style: italic;
+      color: #ffdd88;
+    }
+    .b-note {
+      background: rgba(68, 136, 255, 0.09);
+      border-left: 5px solid #4488ff;
+      padding: 0.8rem 1rem;
+      margin: 1.2rem 0;
+      font-style: italic;
+      color: #aaccff;
+    }
+    .p-note {
+      background: rgba(136, 68, 204, 0.09);
+      border-left: 5px solid #8844cc;
+      padding: 0.8rem 1rem;
+      margin: 1.2rem 0;
+      font-style: italic;
+      color: #d0b0ff;
+    }
+    .g-note {
+      background: rgba(68, 204, 136, 0.09);
+      border-left: 5px solid #44cc88;
+      padding: 0.8rem 1rem;
+      margin: 1.2rem 0;
+      font-style: italic;
+      color: #b0ffcc;
+    }
     footer {
       text-align: center;
       padding: 4rem 1rem 2rem;
@@ -168,7 +195,7 @@
       <p>1. Teleport to Originium Byproduct Processing Plant → gather Kalkonyx (rare mineral) right nearby + optional Aerospace Materials from Recycling Station.</p>
       <p>2. Teleport to Logistics Platform → quickly pick Kalkodendra flower.</p>
       <p>3. Teleport to Southern Meadows → grab Kalkodendra flower as well.</p>
-      <p>4. Teleport to Old Water Plant area → optional Aerospace Materials from Recycling Station → walk down to fight the anomaly for Perfect Essence → finish with another rare Pink Bolete fungi spot.</p>
+      <p>4. Teleport to Old Water Plant area → optional Aerospace Materials from Recycling Station → walk down to fight the anomaly for Perfect Essence (subjective – needed for Rite's last upgrade & Khravengger signature weapon) → finish with another rare Pink Bolete fungi spot.</p>
       <img class="screenshot" src="Endfield/Node1.png" alt="The Hub red circles">
     </div>  
   </div>
@@ -190,10 +217,10 @@
     <div class="content">
       <div class="step-number">6-7</div>
       <h3>ORIGINIUM SCIENCE PARK – Green route</h3>
-      <p>6. Teleport to Route 5 → zipline or walk to the Depot node → issue a delivery (pack your own resources – do NOT accept delivery requests!).</p>
-      <div class="profit-note">Most deliveries route toward Kohl Plant. Optional stop at Recycling Station for Aerospace Materials (marked 6.5).</div>
-      <p>7. Arrive at Kohl Plant → complete delivery → optional deeper run for another Kalkonyx.</p>
-      <p>*Accepting delivery requests usually takes much longer.</p>
+      <p>6. Teleport to Route 5 → zipline or walk to the Depot node → issue a delivery (pack your own resources – do NOT accept delivery requests!*).</p>
+      <div class="profit-note">Most deliveries route toward Kohl Plant (tele-protocols often disabled, avoid jumping and taking hits to get full Valley IV stock bill payment). Optional stop at Recycling Station for Aerospace Materials (marked 6.5).</div>
+      <p>7. Arrive at Kohl Plant → complete delivery → optional deeper run for another Kalkonyx (rare mineral).</p>
+      <p>*You can accept delivery request but it usually takes much longer time to complete</p>
       <img class="screenshot" src="Endfield/Node3.png" alt="Science Park green">
     </div>
   </div>
@@ -217,7 +244,7 @@
       <div class="step-number">10-12</div>
       <h3>WULING CITY – Pink path</h3>
       <p>10. Teleport to Juhou Marsh → collect rare plant Cosmagaric.<br>Optional short detour east for rare flower Vitrodendra.</p>
-      <p>11. Teleport to Maintenance Zone → walk or zipline to collect rare flower False Aggela.</p>
+      <p>11. Teleport to Maintenance Zone → walk or zipline to collect rare flower False Aggela.<br>(Usually a default-built zipline is already there — may vary per account.)</p>
       <p>12. Teleport to Tianjing Courtyard → collect rare flower Blighted Jadeleaf.</p>
       <img class="screenshot" src="Endfield/Node5.png" alt="Wuling pink">
     </div>
@@ -229,7 +256,8 @@
     <div class="content">
       <div class="step-number">13</div>
       <h3>OMV DIJIANG BASE – Kernel Sector</h3>
-      <p>13. Teleport directly to Kernel Sector → open Reception Room Stock Redistribution Terminal UI.</p>
+      <p>13. Teleport directly to Kernel Sector (use the distinctive yellow circle marker) → open Reception Room Stock Redistribution Terminal UI.</p>
+      <div class="profit-note">Step 17 – Operator Contact summoning/gifting – explained later.</div>
       <img class="screenshot" src="Endfield/Node6.png" alt="OMV Dijiang yellow">
     </div>
   </div>
@@ -244,12 +272,20 @@
       <ul style="color: var(--lightgrey); margin: 0.8rem 0 1.2rem 1.8rem; padding-left: 0; list-style-type: disc;">
         <li>Check every available stock item in the market.</li>
         <li>Look for the one with the <strong>highest sell percentage</strong> at any of your friends.</li>
-        <li>Only buy if the sell rate is <strong>≥100%</strong>.</li>
+        <li>Only buy if the sell rate is <strong>≥100%</strong> — lower returns are not worth it.</li>
+        <li>Tip: If you have few friends → go to “Find Friends” and send 10–50 requests to increase chances of high-percentage sales.</li>
       </ul>
-      <p>Once you find the best one: sell the stock there. Repeat for the other market.</p>
+      <p>Once you find the best one: click the friend (or search their nickname in your friends list) → visit their profile → sell the stock there.</p>
+      <p>Repeat the exact same process for the other market (Valley IV → Wuling or vice versa).</p>
       <div class="profit-note">Buy low • Sell at highest % possible (100–600%+) = massive profit</div>
-      <p>16. While visiting the friend: Help with production (up to 5 times) + Exchange clues (up to 5 times).</p>
-      <p>Both grant credits. Spend them in the shop on Oroberyl, permits, etc.</p>
+      <p>16. While visiting the friend:</p>
+      <ul style="color: var(--lightgrey); margin: 0.8rem 0 1.2rem 1.8rem; padding-left: 0; list-style-type: disc;">
+        <li>Help with production (blue circle with upward A-like arrow) — up to <strong>5 times per day</strong>.</li>
+        <li>Exchange clues (yellow rectangle with arrows facing each other) — up to <strong>5 times per day</strong>.</li>
+      </ul>
+      <p>Both actions grant <strong>credits</strong> (daily cap 300*, you can also collect 300 daily directly from shop).<br>
+      Spend credits in the shop on useful items: Oroberyl, weapon exchange permits, upgrade materials, T-credits, etc.</p>
+      <div class="profit-note">*You can go over the cap, but spend the credits in the 24h quota.</div>
       <img class="screenshot" src="Endfield/Node7.png" alt="Market">
       <img class="screenshot" src="Endfield/Node8.png" alt="Friends list" style="margin-top:1rem;">
     </div>
@@ -261,11 +297,19 @@
     <div class="content">
       <div class="step-number">17</div>
       <h3>OPERATOR CONTACT</h3>
-      <p>(Access via OMV Dijiang Base – Kernel Sector)</p>
-      <p>Check for operators with a gift icon → summon them and give gifts to raise trust.</p>
+      <p>(Access via OMV Dijiang Base – Kernel Sector / Reception Room path shown in step 13 map)</p>
+      <p>Check for operators with a <strong>gift icon</strong> → summon them.</p>
+      <p>Reasons to do this daily:</p>
+      <ul style="color: var(--lightgrey); margin: 0.8rem 0 1.2rem 1.8rem; padding-left: 0; list-style-type: disc;">
+        <li>Free materials from chatting/gifting (useful later).</li>
+        <li>Increases <strong>trust level</strong> with chosen operators.</li>
+        <li>Some skill surpluses / upgrades unlock only at certain trust thresholds (50%, 75%, 100%).</li>
+      </ul>
+      <p>Best way to raise trust: give them <strong>gifts</strong>.</p>
+      <div class="profit-note">Gifts can be bought in the <strong>Stock Bill Exchange shop</strong> (along with other items like HH permits for character summoning).</div>
       <img class="screenshot" src="Endfield/Node9.png" alt="Operator Contact">
     </div>
-  </div>
+  </div>  
 
   <!-- STEP 19: BASE ASSIGNMENTS VIEW -->
   <div class="step">
@@ -273,23 +317,71 @@
     <div class="content">
       <div class="step-number">19</div>
       <h3>BASE ASSIGNMENTS VIEW</h3>
-      <p>Check and optimize assignments daily for trust, levels, rare items and credits.</p>
-      <div class="b-note"><strong>Control Nexus</strong> (blue) — mood regeneration and trust.</div>
-      <div class="p-note"><strong>Reception Room</strong> (purple) — speed up clue research.</div>
-      <div class="g-note"><strong>Growth Chamber</strong> (green) — grow rare items.</div>
-      <div class="y-note"><strong>MFG Cabins</strong> (yellow) — manufacture upgrade materials.</div>
+      <p>Check and optimize assignments — gives trust, levels, rare items, clues and daily credits.</p>
+
+      <div class="b-note"><strong>Control Nexus</strong> (blue) — assign operators with blue base skills for:</div>
+      <ul style="color: var(--lightgrey); margin: 0.4rem 0 1rem 1.8rem; padding-left: 0; list-style-type: disc;">
+        <li>Higher mood regeneration % for all operators</li>
+        <li>Passive trust gain for assigned operators</li>
+      </ul>
+
+      <div class="p-note"><strong>Reception Room</strong> (purple) — assign operators to speed up clue research. Collect all 7 clues for extra credit bonus.</div>
+
+      <div class="g-note"><strong>Growth Chamber</strong> (green) — speeds up growing rare gatherables (some skills target only minerals / flowers / fungi).</div>
+      <p>Recommended: grow items you <strong>cannot collect</strong> in daily route:</p>
+      <ul style="color: var(--lightgrey); margin: 0.4rem 0 1rem 1.8rem; padding-left: 0; list-style-type: disc; font-size: 0.95rem;">
+        <li>Red Bolete & Ruby Bolete fungi</li>
+        <li>Auronyx & Umbronyx minerals</li>
+        <li>Legendary: Bloodcap Fungi, Igneosite mineral</li>
+      </ul>
+      <p>Rare sites take 2–3 days to respawn — better to wait for full respawn unless urgent. Same for growth: rarer items = longer grow time. Choose: daily half-farm easy stuff, or stack rarest and check every few days.</p>
+
+      <div class="y-note"><strong>MFG Cabins</strong> (yellow) — manufacture weapon/operator level-up items (some skills boost only one type).</div>
+      <p>Recommended: keep one weapon + one operator upgrade line running (swap based on current need).</p>
+
+      <p>Collect clues, grown items and manufactured products daily.</p>
+
+      <div class="profit-note">Level every owned operator to Lv.20 → promote to Elite 1 (needs Pink Bolete + few resources) → unlock first base skill. Assign them to work for huge Dijiang efficiency boost. Exception: keep high-trust targets in Control Nexus if raising trust is priority.</div>
+
       <img class="screenshot" src="Endfield/Node10.png" alt="Base assignments">
     </div>
   </div>
 
-  <!-- STEP 20: DAILY TAB -->
+  <!-- STEP 20: DAILY TAB – FINISH & CLAIM -->
   <div class="step">
     <div class="bg-layer bg-default"></div>
     <div class="content">
       <div class="step-number">20</div>
       <h3>DAILY TAB – FINISH & CLAIM</h3>
-      <p>Following the full route will complete most daily tasks and rewards.</p>
-      <div class="y-note">Don’t skip claiming your 100 DAP rewards — lots of useful items.</div>
+      <p>By following the full route you will 100% complete most (if not all) of these tasks:</p>
+      <ul style="color: var(--lightgrey); margin: 0.6rem 0 1.2rem 1.8rem; padding-left: 0; list-style-type: disc;">
+        <li><strong>Daily log in</strong> → 20 Daily Activity Points (DAP)</li>
+        <li><strong>Spend 60 Sanity</strong> → 10 DAP</li>
+        <li><strong>Acquire 5 gatherables</strong> → 20 DAP (easy from daily route)</li>
+        <li><strong>Give 1 gift to operator</strong> → 40 DAP (super quick — optional but recommended)</li>
+        <li><strong>Defeat 20 enemies</strong> (from the Rift battle) → 20 DAP</li>
+      </ul>
+
+      <p><strong>Recommended Sanity spending:</strong></p>
+      <ul style="color: var(--lightgrey); margin: 0.4rem 0 1rem 1.8rem; padding-left: 0; list-style-type: disc;">
+        <li>Battle at least 2 times → covers Spend 60 Sanity + Spend 120 Sanity + Defeat 20 Enemies = ~40 DAP total from combat</li>
+        <li>Then log in + 5 gatherables already done → easily hit 100 DAP</li>
+        <li>If you prefer fighting more → you can skip gifting operators</li>
+      </ul>
+
+      <p>Hitting <strong>100 Daily Activity Points</strong> guarantees:</p>
+      <ul style="color: var(--lightgrey); margin: 0.4rem 0 1rem 1.8rem; padding-left: 0; list-style-type: disc;">
+        <li>Oroberyl</li>
+        <li>Operational XP</li>
+        <li>Protocol Pass XP</li>
+        <li>Emergency Sanity Booster</li>
+        <li>Protoprism</li>
+        <li>T-credits</li>
+        <li>Other useful items</li>
+      </ul>
+
+      <div class="y-note">It’s easy, fast, and brings a ton of value — don’t skip it.</div>
+
       <img class="screenshot" src="Endfield/Node11.png" alt="Daily tab">
     </div>
   </div>
@@ -301,7 +393,6 @@
 </footer>
 
 <script>
-  // Hover effect for screenshots
   document.querySelectorAll('.screenshot').forEach(img => {
     const step = img.closest('.step');
     img.addEventListener('mouseenter', () => step.classList.add('bg-blur'));
@@ -310,7 +401,7 @@
 </script>
 
 <style>
-  /* Background definitions - relative to Endfield folder */
+  /* Background definitions */
   .bg-valley { background-image: url('Endfield/BGR2.jpg'); }
   .bg-wuling { background-image: url('Endfield/BGR4.png'); }
   .bg-friends { background-image: url('Endfield/BGR1.jpeg'); }
